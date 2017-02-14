@@ -1,25 +1,27 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <script src="jquery.js" charset="utf-8"></script>
-    <script src="client.js" charset="utf-8"></script>
-    <title></title>
-  </head>
-  <body>
-    <label for="employeeName">Employee Name</label>
-    <input type="text" name="employeeName" id="employeeName">
-    <label for="yearsOfExperience">Years of Experience</label>
-    <input type="text" name="yearsOfExperience" id="yearsOfExperience">
-    <button type="button" id="submitButton">Submit</button>
-    <table>
-      <thead>
-        <th>Employee</th>
-        <th>Years of Experience</th>
-      </thead>
-      <tbody id="employeeInformation">
-      </tbody>
-    </table>
-    <h4>Total Years of Experience: <span id="totalYearsExperience"></span></h4>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <script src="jquery.js" charset="utf-8"></script>
+  <script src="client.js" charset="utf-8"></script>
+  <title></title>
+</head>
+<body>
+<form>
+  <label for="name">Employee Name</label>
+  <input type="text" name="name">
+  <label for="yearsOfExperience">Years of Experience</label>
+  <input type="text" name="yearsOfExperience">
+  <button type="submit">Submit</button>
+</form>
+  <table>
+    <thead>
+      <th>Employee</th>
+      <th>Years of Experience</th>
+    </thead>
+    <tbody id="employeeInformation">
+    </tbody>
+  </table>
+  <h4>Total Years of Experience: <span id="totalYearsExperience"></span></h4>
+</body>
 </html>
